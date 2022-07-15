@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Statistics from './statistic'
+import Statistics from './Statistics/statistic'
 
 const App = () => {
   /* save clicks of each button to its own state */
