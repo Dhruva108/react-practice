@@ -1,7 +1,7 @@
-function Avarage(props) {
-  const {Avarage} = props
+const Avarage = (props) => {
+  const {avarage} = props
   return (
-    <p>Avarage: {Avarage}</p>
+    <p>{avarage}</p>
   )
 }
 export default Avarage

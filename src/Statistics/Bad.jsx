@@ -1,7 +1,7 @@
-function Bad(props) {
-  const {Bad} = props
+const Bad = (props) => {
+  const {bad} = props
   return (
-    <p>Bad: {Bad}</p>
+    <p>{bad}</p>
   )
 }
 export default Bad

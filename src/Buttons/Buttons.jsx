@@ -1,4 +1,4 @@
-function Buttons(props) {
+const Buttons = (props) => {
 
   const {
     good, bad, neutral,

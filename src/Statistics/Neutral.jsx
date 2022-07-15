@@ -1,7 +1,7 @@
-function Neutral(props) {
-  const {Neutral} = props
+const Neutral = (props) => {
+  const {neutral} = props
   return (
-    <p>Neutral: {Neutral}</p>
+    <p>{neutral}</p>
   )
 }
 export default Neutral

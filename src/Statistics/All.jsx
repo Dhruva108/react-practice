@@ -1,7 +1,7 @@
-function All(props) {
-  const {All} = props
+const All = (props) => {
+  const {all} = props
   return (
-    <p>All: {All}</p>
+    <p>{all}</p>
   )
 }
 export default All

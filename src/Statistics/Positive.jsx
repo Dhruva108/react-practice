@@ -1,7 +1,7 @@
-function Positive(props) {
-  const {Positive} = props
+const Positive = (props) => {
+  const {positive} = props
   return (
-    <p>Positive: {Positive}%</p>
+    <p>{positive}%</p>
   )
 }
 export default Positive
